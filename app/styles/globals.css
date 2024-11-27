@@ -14,3 +14,8 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+/* 设置所有元素和伪元素的 box-sizing 为 border-box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
